@@ -1,0 +1,18 @@
+# Large original artifacts
+*.pkl
+*.pth
+
+# Python
+__pycache__/
+*.pyc
+
+# MATLAB generated files
+*.asv
+
+# Generated media
+*.mp3
+*.wav
+
+# OS
+.DS_Store
+Thumbs.db
