@@ -16,3 +16,7 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# Local training datasets
+maestro_temp/
+data/*.mid
