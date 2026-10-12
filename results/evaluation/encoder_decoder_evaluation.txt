@@ -1,0 +1,25 @@
+
+Encoder-Decoder Replication Evaluation
+======================================
+
+Checkpoint: 105modelstate.pth
+Checkpoint epoch: 105
+
+Dataset: Original classical_notes.pkl
+Events used: 406800
+
+Train sequences: 3254
+Validation sequences: 407
+Test sequences: 406
+
+Evaluation teacher forcing ratio: 0
+Loss: Binary Cross Entropy
+
+Total test loss: 26.95579100586474
+Mean test loss: 0.06639357390607079
+
+NOTE:
+The original implementation used random.sample() without recording
+a random seed. Therefore, the exact historical train/test split cannot
+be reconstructed from the released files. This evaluation uses a
+reproducible recreated split with random.seed(229).

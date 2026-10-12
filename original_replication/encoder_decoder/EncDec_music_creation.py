@@ -116,4 +116,24 @@ for song in gen_list:
         stream1.append(chord)
     
     stream_list.append(stream1)
+
+#####################################Saving generated MIDI###########################################
+
+import os
+
+output_dir = os.path.join("..", "..", "results", "generated_music")
+os.makedirs(output_dir, exist_ok=True)
+
+print("\nSaving generated Encoder-Decoder MIDI files...")
+
+for idx, generated_stream in enumerate(stream_list):
+    output_path = os.path.join(
+        output_dir,
+        f"encoder_decoder_{idx}.mid"
+    )
+
+    generated_stream.write("midi", fp=output_path)
+    print(f"Saved: {output_path}")
+
+print(f"\nEncoder-Decoder generation complete: {len(stream_list)} MIDI files saved.")
     
