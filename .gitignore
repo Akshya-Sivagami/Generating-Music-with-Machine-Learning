@@ -20,3 +20,4 @@ Thumbs.db
 # Local training datasets
 maestro_temp/
 data/*.mid
+results/evaluation/vanilla_nn_model.mat
