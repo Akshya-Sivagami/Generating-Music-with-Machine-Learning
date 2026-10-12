@@ -10,7 +10,7 @@ ThreeNotes = sort(Chord(1:3)) ;
 i = 4 ;
 j = 1 ;
 ChordChangeVector = [] ;
-ChordMatrix = zeros(3, 500) ;
+ChordMatrix = zeros(500, 3) ;
 
 while i < r-3 %So running through the song
     NextThreeNotes = sort(Chord(i:i+2)) ;
