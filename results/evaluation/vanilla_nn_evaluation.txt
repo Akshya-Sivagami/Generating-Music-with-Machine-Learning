@@ -1,0 +1,31 @@
+VANILLA NEURAL NETWORK REPLICATION
+==================================
+
+Input dataset: 202.mid
+Input MIDI events: 846
+Feature dimensions: 104
+Output classes: 88
+Usable examples: 745
+
+Architecture: 104 -> 1024 -> 88
+Training/validation/test split: 70/15/15
+Maximum epochs: 115
+Random seed: 229
+
+Training samples: 521
+Validation samples: 112
+Test samples: 112
+
+Training accuracy: 99.0403%
+Validation accuracy: 44.6429%
+Test accuracy: 44.6429%
+Overall accuracy: 82.6846%
+
+Training cross-entropy: 0.00370986
+Validation cross-entropy: 0.04619619
+Test cross-entropy: 0.04988898
+
+NOTE:
+The original trained DeppNet and its training script were not included in the released source code.
+This run reconstructs the missing training stage using the architecture described in the report while retaining the authors' released feature-construction code.
+The original Pirates/Synthesia dataset was unavailable; released 202.mid was used as substitute data.
