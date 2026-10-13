@@ -1,0 +1,28 @@
+{
+  "mode": "sparse",
+  "seed": 231,
+  "target_seconds": 30,
+  "metrics": {
+    "note_count": 166,
+    "duration_seconds": 30.000000000000007,
+    "notes_per_second": 5.533333333333332,
+    "mean_inter_onset_seconds": 0.18174207566462172,
+    "unique_pitches": 20
+  },
+  "baseline": {
+    "epoch": 105,
+    "sha256": "8cee9b78f7b6e86ccc3c891a0ba7a6eabf531f1d5eb3eeff702f029475e50c28"
+  },
+  "seed_midi": "original_replication\\ml_code_simen\\ReadMidi\\Midi\\202.mid",
+  "controller_sha256": "c02e2abf41a11001a6143d6ddbd512071e367b5c12dd6086cf7d764f5b113b55",
+  "sampling": {
+    "temperature": 0.65,
+    "candidate_pool_minimum": 12,
+    "piano_pitch_range": [
+      21,
+      108
+    ]
+  },
+  "event_count": 164,
+  "trace_file": "sparse_231.trace.jsonl"
+}

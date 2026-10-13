@@ -1,0 +1,185 @@
+{
+  "summary": {
+    "sparse": {
+      "trials": 5,
+      "mean_notes_per_second": 5.526666666666666,
+      "std_notes_per_second": 0.2442676128074858
+    },
+    "dense": {
+      "trials": 5,
+      "mean_notes_per_second": 12.406666666666677,
+      "std_notes_per_second": 0.049441323247292744
+    },
+    "uncontrolled": {
+      "trials": 5,
+      "mean_notes_per_second": 0.7333333333333333,
+      "std_notes_per_second": 0.0
+    }
+  },
+  "paired_seeds": [
+    229,
+    230,
+    231,
+    232,
+    233
+  ],
+  "dense_exceeds_sparse_trials": 5,
+  "paired_trials": 5,
+  "mean_paired_difference": 6.880000000000011,
+  "all_pairs_pass": true,
+  "measurements": [
+    {
+      "mode": "sparse",
+      "seed": 229,
+      "file": "trials/sparse_229.mid",
+      "note_count": 163,
+      "duration_seconds": 30.000000000000007,
+      "notes_per_second": 5.433333333333332,
+      "mean_inter_onset_seconds": 0.18470703125000004,
+      "unique_pitches": 23
+    },
+    {
+      "mode": "sparse",
+      "seed": 230,
+      "file": "trials/sparse_230.mid",
+      "note_count": 172,
+      "duration_seconds": 29.99999999999995,
+      "notes_per_second": 5.733333333333343,
+      "mean_inter_onset_seconds": 0.1789425505050502,
+      "unique_pitches": 21
+    },
+    {
+      "mode": "sparse",
+      "seed": 231,
+      "file": "trials/sparse_231.mid",
+      "note_count": 166,
+      "duration_seconds": 30.000000000000007,
+      "notes_per_second": 5.533333333333332,
+      "mean_inter_onset_seconds": 0.18174207566462172,
+      "unique_pitches": 20
+    },
+    {
+      "mode": "sparse",
+      "seed": 232,
+      "file": "trials/sparse_232.mid",
+      "note_count": 173,
+      "duration_seconds": 30.000000000000025,
+      "notes_per_second": 5.766666666666662,
+      "mean_inter_onset_seconds": 0.18553131551362698,
+      "unique_pitches": 26
+    },
+    {
+      "mode": "sparse",
+      "seed": 233,
+      "file": "trials/sparse_233.mid",
+      "note_count": 155,
+      "duration_seconds": 30.000000000000018,
+      "notes_per_second": 5.166666666666663,
+      "mean_inter_onset_seconds": 0.19627828366445926,
+      "unique_pitches": 20
+    },
+    {
+      "mode": "dense",
+      "seed": 229,
+      "file": "trials/dense_229.mid",
+      "note_count": 373,
+      "duration_seconds": 29.999999999999993,
+      "notes_per_second": 12.433333333333337,
+      "mean_inter_onset_seconds": 0.07991851478494623,
+      "unique_pitches": 34
+    },
+    {
+      "mode": "dense",
+      "seed": 230,
+      "file": "trials/dense_230.mid",
+      "note_count": 374,
+      "duration_seconds": 30.00000000000001,
+      "notes_per_second": 12.466666666666661,
+      "mean_inter_onset_seconds": 0.07981596291331548,
+      "unique_pitches": 31
+    },
+    {
+      "mode": "dense",
+      "seed": 231,
+      "file": "trials/dense_231.mid",
+      "note_count": 372,
+      "duration_seconds": 29.999999999999975,
+      "notes_per_second": 12.400000000000011,
+      "mean_inter_onset_seconds": 0.08021816037735842,
+      "unique_pitches": 33
+    },
+    {
+      "mode": "dense",
+      "seed": 232,
+      "file": "trials/dense_232.mid",
+      "note_count": 372,
+      "duration_seconds": 29.999999999999943,
+      "notes_per_second": 12.400000000000023,
+      "mean_inter_onset_seconds": 0.08012550539083543,
+      "unique_pitches": 35
+    },
+    {
+      "mode": "dense",
+      "seed": 233,
+      "file": "trials/dense_233.mid",
+      "note_count": 370,
+      "duration_seconds": 29.99999999999994,
+      "notes_per_second": 12.333333333333359,
+      "mean_inter_onset_seconds": 0.08068823396567283,
+      "unique_pitches": 30
+    },
+    {
+      "mode": "uncontrolled",
+      "seed": 229,
+      "file": "trials/uncontrolled_229.mid",
+      "note_count": 22,
+      "duration_seconds": 30.0,
+      "notes_per_second": 0.7333333333333333,
+      "mean_inter_onset_seconds": 0.05952380952380953,
+      "unique_pitches": 5
+    },
+    {
+      "mode": "uncontrolled",
+      "seed": 230,
+      "file": "trials/uncontrolled_230.mid",
+      "note_count": 22,
+      "duration_seconds": 30.0,
+      "notes_per_second": 0.7333333333333333,
+      "mean_inter_onset_seconds": 0.05952380952380953,
+      "unique_pitches": 5
+    },
+    {
+      "mode": "uncontrolled",
+      "seed": 231,
+      "file": "trials/uncontrolled_231.mid",
+      "note_count": 22,
+      "duration_seconds": 30.0,
+      "notes_per_second": 0.7333333333333333,
+      "mean_inter_onset_seconds": 0.05952380952380953,
+      "unique_pitches": 5
+    },
+    {
+      "mode": "uncontrolled",
+      "seed": 232,
+      "file": "trials/uncontrolled_232.mid",
+      "note_count": 22,
+      "duration_seconds": 30.0,
+      "notes_per_second": 0.7333333333333333,
+      "mean_inter_onset_seconds": 0.05952380952380953,
+      "unique_pitches": 5
+    },
+    {
+      "mode": "uncontrolled",
+      "seed": 233,
+      "file": "trials/uncontrolled_233.mid",
+      "note_count": 22,
+      "duration_seconds": 30.0,
+      "notes_per_second": 0.7333333333333333,
+      "mean_inter_onset_seconds": 0.05952380952380953,
+      "unique_pitches": 5
+    }
+  ],
+  "mean_inter_onset_definition": "gap between exact distinct onset times; simultaneous notes count separately in density",
+  "requested_training_regime_passes": 10,
+  "controlled_trials": 10
+}
