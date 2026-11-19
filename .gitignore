@@ -21,3 +21,10 @@ Thumbs.db
 maestro_temp/
 data/*.mid
 results/evaluation/vanilla_nn_model.mat
+
+# Local extension environment, downloads and derived training arrays
+.venv/
+tmp/
+extension/assets/
+extension/datasets/*.npz
+extension/outputs/**/*.trace.jsonl

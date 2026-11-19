@@ -1,0 +1,249 @@
+{
+  "seed": 229,
+  "selected_classifier": "logistic_regression",
+  "selection_metric": "validation balanced accuracy",
+  "classifiers": {
+    "majority": {
+      "train": {
+        "accuracy": 0.5028011204481793,
+        "balanced_accuracy": 0.5,
+        "confusion_matrix_sparse_dense": [
+          [
+            0,
+            355
+          ],
+          [
+            0,
+            359
+          ]
+        ],
+        "samples": 714,
+        "class_counts": [
+          355,
+          359
+        ]
+      },
+      "validation": {
+        "accuracy": 0.2851851851851852,
+        "balanced_accuracy": 0.5,
+        "confusion_matrix_sparse_dense": [
+          [
+            0,
+            193
+          ],
+          [
+            0,
+            77
+          ]
+        ],
+        "samples": 270,
+        "class_counts": [
+          193,
+          77
+        ]
+      },
+      "test": {
+        "accuracy": 0.6039215686274509,
+        "balanced_accuracy": 0.5,
+        "confusion_matrix_sparse_dense": [
+          [
+            0,
+            101
+          ],
+          [
+            0,
+            154
+          ]
+        ],
+        "samples": 255,
+        "class_counts": [
+          101,
+          154
+        ]
+      },
+      "convergence_warnings": []
+    },
+    "logistic_regression": {
+      "train": {
+        "accuracy": 0.9103641456582633,
+        "balanced_accuracy": 0.9102985601632076,
+        "confusion_matrix_sparse_dense": [
+          [
+            319,
+            36
+          ],
+          [
+            28,
+            331
+          ]
+        ],
+        "samples": 714,
+        "class_counts": [
+          355,
+          359
+        ]
+      },
+      "validation": {
+        "accuracy": 0.9481481481481482,
+        "balanced_accuracy": 0.9598277370298096,
+        "confusion_matrix_sparse_dense": [
+          [
+            180,
+            13
+          ],
+          [
+            1,
+            76
+          ]
+        ],
+        "samples": 270,
+        "class_counts": [
+          193,
+          77
+        ]
+      },
+      "test": {
+        "accuracy": 0.8549019607843137,
+        "balanced_accuracy": 0.8679439372508679,
+        "confusion_matrix_sparse_dense": [
+          [
+            94,
+            7
+          ],
+          [
+            30,
+            124
+          ]
+        ],
+        "samples": 255,
+        "class_counts": [
+          101,
+          154
+        ]
+      },
+      "convergence_warnings": []
+    },
+    "small_mlp": {
+      "train": {
+        "accuracy": 0.9859943977591037,
+        "balanced_accuracy": 0.985946879045863,
+        "confusion_matrix_sparse_dense": [
+          [
+            347,
+            8
+          ],
+          [
+            2,
+            357
+          ]
+        ],
+        "samples": 714,
+        "class_counts": [
+          355,
+          359
+        ]
+      },
+      "validation": {
+        "accuracy": 0.9518518518518518,
+        "balanced_accuracy": 0.9507099118498081,
+        "confusion_matrix_sparse_dense": [
+          [
+            184,
+            9
+          ],
+          [
+            4,
+            73
+          ]
+        ],
+        "samples": 270,
+        "class_counts": [
+          193,
+          77
+        ]
+      },
+      "test": {
+        "accuracy": 0.8823529411764706,
+        "balanced_accuracy": 0.894078693583644,
+        "confusion_matrix_sparse_dense": [
+          [
+            96,
+            5
+          ],
+          [
+            25,
+            129
+          ]
+        ],
+        "samples": 255,
+        "class_counts": [
+          101,
+          154
+        ]
+      },
+      "convergence_warnings": []
+    }
+  },
+  "controller": {
+    "train": {
+      "events": 18419,
+      "mae_gap_duration_chord_size": [
+        0.08202203435526793,
+        0.1135641106737465,
+        0.7220130578353756
+      ],
+      "unconditional_mean_mae": [
+        0.09497221006509406,
+        0.13454832583626014,
+        0.7656942480799463
+      ]
+    },
+    "validation": {
+      "events": 4675,
+      "mae_gap_duration_chord_size": [
+        0.13672811753877412,
+        0.1682868726433546,
+        0.8382973529940556
+      ],
+      "unconditional_mean_mae": [
+        0.15568925690211455,
+        0.21710707542251512,
+        0.8717299155707678
+      ]
+    },
+    "test": {
+      "events": 6504,
+      "mae_gap_duration_chord_size": [
+        0.07884428097825517,
+        0.12137027894466701,
+        0.7969843271941102
+      ],
+      "unconditional_mean_mae": [
+        0.08391569023837094,
+        0.14060624255996948,
+        0.834037110801648
+      ]
+    }
+  },
+  "controller_architecture": "StandardScaler + multi-output Ridge on log targets; alpha=10",
+  "controller_output_bounds_train_1st_99th_percentile": [
+    [
+      0.03125,
+      0.028645833333342807,
+      1.0
+    ],
+    [
+      0.9965520833333164,
+      1.5799609375000285,
+      5.0
+    ]
+  ],
+  "classifier_role": "Diagnostic; not the generative control. The conditional ridge controller drives decoding.",
+  "feature_warning": "Classifier excludes note count/density and current inter-onset gaps; duration and chord size remain correlated with labels.",
+  "packages": {
+    "numpy": "2.2.6",
+    "sklearn": "1.7.2",
+    "torch": "2.11.0+cpu",
+    "mido": "1.3.3"
+  }
+}
